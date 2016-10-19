@@ -1,0 +1,303 @@
+-- Insert data script for book sample storeinventory database
+--
+-- tables are category, product, store, and store_product
+--
+-- THIS SCRIPT SHOULD WORK WITH EITHER MYSQL OR MS SQL SERVER DBs
+--
+-- repeat the below several times for categories.
+INSERT INTO storeinventory.category (Name, Description) 
+VALUES ('Auto Parts', 'Parts and tools for automobiles');
+
+INSERT INTO storeinventory.category (Name, Description)
+VALUES ('Electronics', 'TVs, Computers, Gaming systems and accessories');
+
+INSERT INTO storeinventory.category (Name, Description)
+VALUES ('Kitchen', 'Cooking utensils and kitchen supplies' );
+
+INSERT INTO storeinventory.category (Name,Description)
+VALUES ('Home Office', 'Home office supplies' );
+
+INSERT INTO storeinventory.category (Name, Description)
+VALUES ('Outdoor Living', 'Patio furniture, grills, and other accessories' );
+
+-- repeat the below several times for products.
+-- Auto parts
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Battery', 100.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Standard car battery' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Head Lamps', 25.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Replacment head lamps' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Oil Filter', 6.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Replacment oil filter' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Lug Wrench', 12.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Wrench for changing tires' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Car Jack', 75.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'3-ton jack for small cars' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Air Freshener', 2.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Mirror mounted scent wafer' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Vent Air Freshener', 3.00,
+(select idCategory from category where name = 'Auto Parts'), 
+'Freshener that mounts in air vent' );
+
+-- Electronics
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '4GB USB Thumb drive', 8.00,
+(select idCategory from category where name = 'Electronics'), 
+'USB Digital Media, removable, 4GB' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '8GB USB Thumb drive', 14.00,
+(select idCategory from category where name = 'Electronics'), 
+'USB Digital Media, removable, 8GB' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '42 inch LCD TV', 600.00,
+(select idCategory from category where name = 'Electronics'), 
+'Flat Screen TV, 42 inch picture' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '52 inch LCD TV', 900.00,
+(select idCategory from category where name = 'Electronics'), 
+'Flat Screen TV, 52 inch picture' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'HDMI Cable, 6 feet', 12.00,
+(select idCategory from category where name = 'Electronics'), 
+'TV connector, HDMI plug, 6 feet long' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '20GB MP3 Player', 25.00,
+(select idCategory from category where name = 'Electronics'), 
+'MP3 music player, 20GB storage capacity' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( '10 inch tablet computer', 212.00,
+(select idCategory from category where name = 'Electronics'), 
+'10inch tablet computer, 16GB storage' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Drive it like you stole it', 40.00,
+(select idCategory from category where name = 'Electronics'), 
+'Video Game for the latest game console' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Drive it like you stole it II', 60.00,
+(select idCategory from category where name = 'Electronics'), 
+'Video Game for the latest game console' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Game Console', 250.00,
+(select idCategory from category where name = 'Electronics'), 
+'Latest gaming console' );
+
+-- Kitchen
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Drip Coffee Maker', 25.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Standard 12 cup coffee maker' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Espresso Machine', 45.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Custom espresso machine with frothing attachment' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Small coffee maker', 15.00,
+(select idCategory from category where name = 'Kitchen'), 
+'4-cup coffee maker' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Fancy brew station', 125.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Fancy quick-brewer for coffee, tea, and cocoa' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Cheap Mixer', 35.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Simple mixer' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Fancy Mixer', 135.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Simple mixer with attachments' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Dinner Plate set', 45.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Set of 6 dinner plates' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Cutting Board', 5.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Plastic cutting-chopping board' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Paper towel holder', 7.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Simple towel holder, free-standing' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Cup Set', 8.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Plastic cups, 14 oz size' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Set of glasses', 15.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Set of 6 14 oz glasses' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Silverware set', 25.00,
+(select idCategory from category where name = 'Kitchen'), 
+'Complete set of 6' );
+
+-- Home Office
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Printer paper', 6.00,
+(select idCategory from category where name = 'Home Office'), 
+'Standard printer paper, 500 sheets' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Stapler', 6.00,
+(select idCategory from category where name = 'Home Office'), 
+'Red Stapler' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Printer Ink', 16.00,
+(select idCategory from category where name = 'Home Office'), 
+'Really, one is all you need - fits any printer' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Wire Trash can', 9.00,
+(select idCategory from category where name = 'Home Office'), 
+'Otherwise known as File 13' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Pencil holder', 4.00,
+(select idCategory from category where name = 'Home Office'), 
+'Black, plastic, hold pens and paperclips too' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Desk Calendar', 20.00,
+(select idCategory from category where name = 'Home Office'), 
+'Large 18-month caledar' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Desk lamp', 25.00,
+(select idCategory from category where name = 'Home Office'), 
+'LED, plug-in or battery power' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Fax-Printer-Scanner', 66.00,
+(select idCategory from category where name = 'Home Office'), 
+'All-in-one device, USB connection' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Wireless Fax-Printer-Scanner', 99.00,
+(select idCategory from category where name = 'Home Office'), 
+'All-in-one device, USB or Wireless LAN connection' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Router', 50.00,
+(select idCategory from category where name = 'Home Office'), 
+'Wireless N-class router' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Power Strip', 11.00,
+(select idCategory from category where name = 'Home Office'), 
+'6 outlest plus surge protection' );
+
+-- Outdoor Living
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Patio Chair', 19.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'Black pot-metal sitting chair' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Patio Table', 79.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'Black pot-metal round table' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Patio Umbrella', 59.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'8 feet higher, multiple settings, tiltable' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Gas Grill', 119.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'2 Burners and side heating unit' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Charcoal Grill', 59.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'Small round unit, rollable' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Fire Chimney', 99.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'Small outdoor fireplace' );
+
+INSERT INTO StoreInventory.Product (Name, Price, CategoryID, Description)
+VALUES ( 'Soft sided pool', 69.00,
+(select idCategory from category where name = 'Outdoor Living'), 
+'Soft sided 12 foot pool with filter' );
+
+-- Repeat the below several times for stores
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(25000,'Food-GM Combo','S','123 Shopping St','Concord',
+'NC','28022');
+
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(24000,'Food-GM Combo','S','123 Meeting St','Charleston',
+'SC','24824');
+
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(25000,'Food-GM Combo','S','123 Border Crossing St','San Diego',
+'CA','82159');
+
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(40000,'Food-GM Combo','U','123 Big D Blvd','Dallas',
+'TX','38512');
+
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(25000,'Food-GM Combo','R','123 MOK St','Prairie Town',
+'TX','37585');
+
+INSERT INTO storeinventory.store (SquareFeet,StoreType,LocationType,Address,City,
+	StoreState,ZipCode)
+VALUES
+(10000,'Electronics Specialty','U','123 Town Center St','Iowa City',
+'IA','36222');
+
+
+
+

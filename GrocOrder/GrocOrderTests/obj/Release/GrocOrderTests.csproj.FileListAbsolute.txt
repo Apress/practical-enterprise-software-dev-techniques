@@ -1,0 +1,8 @@
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.pdb
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\bin\Debug\GrocOrder.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\bin\Debug\nunit.framework.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\bin\Debug\GrocOrder.pdb
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\obj\Release\ResolveAssemblyReference.cache
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\obj\Release\GrocOrderTests.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrderTests\obj\Release\GrocOrderTests.pdb

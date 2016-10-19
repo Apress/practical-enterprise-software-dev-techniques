@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1004]C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll</TopNode>
+  <SelectedNode>[0-1004]C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1004]C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]GrocOrderTests" Expanded="true" />
+    <Node UniqueName="[0-1000]GrocOrderTests.OrderTests" Expanded="true" />
+  </Nodes>
+</VisualState>

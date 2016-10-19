@@ -1,0 +1,12 @@
+@ECHO OFF
+SET mod_string=""
+FOR /F "tokens=*" %%A IN ('svn update Console\ConsoleBranch') DO SET mod_string=%%A
+SET firstchar=%mod_string:~0,1%
+IF %firstchar%==U goto autocompile
+echo "no changes"
+exit
+:autocompile
+echo "changes detected - auto compiling"
+msbuild Console\ConsoleBranch.sln
+copy Console\bin\Release\*.* \\deploy\Console
+exit

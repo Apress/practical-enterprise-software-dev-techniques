@@ -1,0 +1,12 @@
+package com.nokelservices.book;
+
+public class PropertyReader
+{
+
+    public static void main(String[] args)
+    {
+        // TODO Auto-generated method stub
+
+    }
+
+}

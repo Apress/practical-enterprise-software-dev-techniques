@@ -1,0 +1,13 @@
+package com.demo;
+
+public class MainHello {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Hello Ubuntu!");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+C:\Projects\book\GrocOrder\GrocOrder\bin\Debug\GrocOrder.dll
+C:\Projects\book\GrocOrder\GrocOrder\bin\Debug\GrocOrder.pdb
+C:\Projects\book\GrocOrder\GrocOrder\obj\Debug\GrocOrder.csprojResolveAssemblyReference.cache
+C:\Projects\book\GrocOrder\GrocOrder\obj\Debug\GrocOrder.dll
+C:\Projects\book\GrocOrder\GrocOrder\obj\Debug\GrocOrder.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="HelloNant" default="build" basedir=".">
+	<description>Building HelloWorld in NANT</description>
+	<property name="debug" value="true" overwrite="false" />
+	
+	<target name="clean" description="remove generated files">
+		<delete file="HelloNant.exe" failonerror="false" />
+		<delete file="HelloNant.pdb" failonerror="false" />
+	</target>
+	
+	<target name="build" description="build hello world with Nant">
+		<csc target="exe" output="HelloNant.exe" debug="${debug}">
+			<sources>
+				<includes name="HelloNant.cs" />
+			</sources>
+		</csc>
+	</target>
+</project>

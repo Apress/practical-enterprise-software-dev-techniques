@@ -1,0 +1,9 @@
+@ECHO OFF
+echo "TESTING DEPLOY"
+copy \\deploy\Console\*.exe \\test_server\programs\console
+copy \\deploy\Console\*.dll \\test_server\programs\console
+copy \\deploy\Console\Console.TEST.config \\test_server\programs\console
+rename \\test_server\programs\console\Console.TEST.config
+\\test_server\programs\console\Console.exe.config
+echo "TESTING DEPLOY COMPLETE"
+exit

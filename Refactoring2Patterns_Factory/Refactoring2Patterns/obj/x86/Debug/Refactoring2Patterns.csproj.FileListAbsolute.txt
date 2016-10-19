@@ -1,0 +1,10 @@
+C:\projects\book_code\Refactoring2Patterns\Refactoring2Patterns\bin\Debug\Refactoring2Patterns.exe
+C:\projects\book_code\Refactoring2Patterns\Refactoring2Patterns\bin\Debug\Refactoring2Patterns.pdb
+C:\projects\book_code\Refactoring2Patterns\Refactoring2Patterns\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projects\book_code\Refactoring2Patterns\Refactoring2Patterns\obj\x86\Debug\Refactoring2Patterns.exe
+C:\projects\book_code\Refactoring2Patterns\Refactoring2Patterns\obj\x86\Debug\Refactoring2Patterns.pdb
+C:\projects\book_code\Refactoring2Patterns_2\Refactoring2Patterns\obj\x86\Debug\Refactoring2Patterns.exe
+C:\projects\book_code\Refactoring2Patterns_2\Refactoring2Patterns\obj\x86\Debug\Refactoring2Patterns.pdb
+C:\projects\book_code\Refactoring2Patterns_2\Refactoring2Patterns\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projects\book_code\Refactoring2Patterns_2\Refactoring2Patterns\bin\Debug\Refactoring2Patterns.exe
+C:\projects\book_code\Refactoring2Patterns_2\Refactoring2Patterns\bin\Debug\Refactoring2Patterns.pdb

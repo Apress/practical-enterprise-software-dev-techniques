@@ -1,0 +1,8 @@
+C:\projects\book_code\ConsoleBranch\ConsoleBranch\bin\Debug\ConsoleBranch.exe.config
+C:\projects\book_code\ConsoleBranch\ConsoleBranch\bin\Debug\ConsoleBranch.exe
+C:\projects\book_code\ConsoleBranch\ConsoleBranch\bin\Debug\ConsoleBranch.pdb
+C:\projects\book_code\ConsoleBranch\ConsoleBranch\obj\x86\Debug\ConsoleBranch.exe
+C:\projects\book_code\ConsoleBranch\ConsoleBranch\obj\x86\Debug\ConsoleBranch.pdb
+C:\Users\Ed\Documents\PSDT book\book_code\ConsoleBranch\ConsoleBranch\bin\Debug\ConsoleBranch.exe.config
+C:\Users\Ed\Documents\PSDT book\book_code\ConsoleBranch\ConsoleBranch\obj\x86\Debug\ConsoleBranch.exe
+C:\Users\Ed\Documents\PSDT book\book_code\ConsoleBranch\ConsoleBranch\obj\x86\Debug\ConsoleBranch.pdb

@@ -1,0 +1,9 @@
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.pdb
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrder.dll
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\nunit.framework.dll
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrder.pdb
+C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\nunit.framework.xml
+C:\Projects\book\GrocOrder\GrocOrderTests\obj\Debug\GrocOrderTests.csprojResolveAssemblyReference.cache
+C:\Projects\book\GrocOrder\GrocOrderTests\obj\Debug\GrocOrderTests.dll
+C:\Projects\book\GrocOrder\GrocOrderTests\obj\Debug\GrocOrderTests.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-25" time="13:58:12">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\utils\NUnit 2.6.3\bin" machine-name="NEW_HP" user="Ed" user-domain="New_HP" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Projects\book\GrocOrder\GrocOrderTests\bin\Debug\GrocOrderTests.dll" executed="True" result="Success" success="True" time="0.727" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="GrocOrderTests" executed="True" result="Success" success="True" time="0.625" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="OrderTests" executed="True" result="Success" success="True" time="0.613" asserts="0">
+            <results>
+              <test-case name="GrocOrderTests.OrderTests.testDefaultFoodType" executed="True" result="Success" success="True" time="0.447" asserts="0" />
+              <test-case name="GrocOrderTests.OrderTests.testFoodItemTypes" executed="True" result="Success" success="True" time="0.009" asserts="2">
+                <reason>
+                  <message><![CDATA[Warning: Test changed the CurrentDirectory]]></message>
+                </reason>
+              </test-case>
+              <test-case name="GrocOrderTests.OrderTests.testItemsEnteredOneAtATime" executed="True" result="Success" success="True" time="0.023" asserts="4" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

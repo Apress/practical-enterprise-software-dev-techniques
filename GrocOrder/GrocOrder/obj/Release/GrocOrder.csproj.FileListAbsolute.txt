@@ -1,0 +1,5 @@
+C:\projects\Demo-Learning\GrocOrder\GrocOrder\bin\Release\GrocOrder.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrder\bin\Release\GrocOrder.pdb
+C:\projects\Demo-Learning\GrocOrder\GrocOrder\obj\Release\ResolveAssemblyReference.cache
+C:\projects\Demo-Learning\GrocOrder\GrocOrder\obj\Release\GrocOrder.dll
+C:\projects\Demo-Learning\GrocOrder\GrocOrder\obj\Release\GrocOrder.pdb

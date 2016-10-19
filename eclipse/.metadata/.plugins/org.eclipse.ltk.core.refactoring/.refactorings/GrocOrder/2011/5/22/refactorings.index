@@ -1,0 +1,8 @@
+1306174518611	Rename local variable 'tax1'
+1306174713115	Rename local variable 'tax2'
+1306174769778	Rename local variable 'total2'
+1306184034525	Extract method 'calculateTaxTotal'
+1306375474767	Change method 'calculateTaxTotal'
+1306379794446	Extract constant 'FOOD_TAX_RATE'
+1306380104391	Extract constant 'NONFOOD_TAX_RATE'
+1306411310223	Extract method 'calculateOrderSubTotal'

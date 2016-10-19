@@ -1,0 +1,11 @@
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\LogTestApplication.exe.config
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\LogTestApplication.exe
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\LogTestApplication.pdb
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\log4net.dll
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\MySql.Data.dll
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\MySql.Data.Entity.dll
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\MySql.Web.dll
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\bin\Debug\log4net.xml
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\obj\Debug\LogTestApplication.csprojResolveAssemblyReference.cache
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\obj\Debug\LogTestApplication.exe
+C:\Projects\VS2013\LogTestApplication\LogTestApplication\obj\Debug\LogTestApplication.pdb

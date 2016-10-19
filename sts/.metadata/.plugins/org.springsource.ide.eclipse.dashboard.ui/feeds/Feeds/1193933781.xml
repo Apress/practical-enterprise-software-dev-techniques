@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SpringSource Team Blog</title>
+	<atom:link href="http://blog.springsource.org/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.springsource.org</link>
+	<description>The voice of SpringSource</description>
+	<lastBuildDate>Fri, 06 Sep 2013 13:42:30 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<item>
+		<title>Reactor 1.0.0.M2 &#8211; a foundation for reactive fast-data applications on the JVM</title>
+		<link>http://blog.springsource.org/2013/08/27/reactor-1-0-0-m2-a-foundation-for-reactive-fast-data-applications-on-the-jvm/</link>
+		<comments>http://blog.springsource.org/2013/08/27/reactor-1-0-0-m2-a-foundation-for-reactive-fast-data-applications-on-the-jvm/#comments</comments>
+		<pubDate>Tue, 27 Aug 2013 18:08:31 +0000</pubDate>
+		<dc:creator>Jon Brisbin</dc:creator>
+				<category><![CDATA[Big Data]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14477</guid>
+		<description><![CDATA[I&#039;m excited to announce the 2nd milestone release of Reactor on our way toward 1.0! Maven artifacts for Reactor 1.0.0.M2 are available in the usual milestone repository. What is Reactor? Reactor is a foundational framework for building high-throughput, asynchronous, reactive applications on the JVM. It provides Selector-style topic matching for event routing, dynamic Consumer assignment,  <a href="http://blog.springsource.org/2013/08/27/reactor-1-0-0-m2-a-foundation-for-reactive-fast-data-applications-on-the-jvm/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/27/reactor-1-0-0-m2-a-foundation-for-reactive-fast-data-applications-on-the-jvm/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Spring Batch 3.0 Milestone 1 Released</title>
+		<link>http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/</link>
+		<comments>http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/#comments</comments>
+		<pubDate>Sat, 24 Aug 2013 01:13:28 +0000</pubDate>
+		<dc:creator>Michael Minella</dc:creator>
+				<category><![CDATA[Big Data]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Spring Batch]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14451</guid>
+		<description><![CDATA[SpringOne2GXIf you haven&#039;t registered for SpringOne2GX yet, it&#039;s not too late!. Register today to attend JSR-352, Spring Batch and You at SpringOne2GX and learn about JSR-352 and Spring Batch in depth.Today we are pleased to announce the first milestone release towards Spring Batch 3.0 (download). With this release we take our first steps towards implementing  <a href="http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Spring Security 3.2.0.RC1 Highlights: Security Headers</title>
+		<link>http://blog.springsource.org/2013/08/23/spring-security-3-2-0-rc1-highlights-security-headers/</link>
+		<comments>http://blog.springsource.org/2013/08/23/spring-security-3-2-0-rc1-highlights-security-headers/#comments</comments>
+		<pubDate>Fri, 23 Aug 2013 17:31:52 +0000</pubDate>
+		<dc:creator>Rob Winch</dc:creator>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14359</guid>
+		<description><![CDATA[SpringOne2GXIf you haven&#039;t registered for SpringOne2GX yet, it&#039;s not too late!. Register today to attend Getting Started with Spring Security 3.2 at SpringOne2GX and learn about Spring Security 3.2 in depth. This is my last post in a two part series on Spring Security 3.2.0.RC1. My previous post discussed Spring Security&#039;s CSRF protection. In this  <a href="http://blog.springsource.org/2013/08/23/spring-security-3-2-0-rc1-highlights-security-headers/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/23/spring-security-3-2-0-rc1-highlights-security-headers/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Spring Security 3.2.0.RC1 Highlights: CSRF Protection</title>
+		<link>http://blog.springsource.org/2013/08/21/spring-security-3-2-0-rc1-highlights-csrf-protection/</link>
+		<comments>http://blog.springsource.org/2013/08/21/spring-security-3-2-0-rc1-highlights-csrf-protection/#comments</comments>
+		<pubDate>Wed, 21 Aug 2013 20:42:02 +0000</pubDate>
+		<dc:creator>Rob Winch</dc:creator>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14240</guid>
+		<description><![CDATA[SpringOne2GXIf you haven&#039;t registered for SpringOne2GX yet, it&#039;s not too late!. Register today to attend Getting Started with Spring Security 3.2 at SpringOne2GX and learn about Spring Security 3.2 in depth. On Monday I announced the release of Spring Security 3.2.0.RC1. This is the first of a two part blog series going over the new  <a href="http://blog.springsource.org/2013/08/21/spring-security-3-2-0-rc1-highlights-csrf-protection/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/21/spring-security-3-2-0-rc1-highlights-csrf-protection/feed/</wfw:commentRss>
+		<slash:comments>27</slash:comments>
+		</item>
+		<item>
+		<title>Spring XD 1.0 Milestone 2 Released</title>
+		<link>http://blog.springsource.org/2013/08/14/spring-xd-1-0-milestone-2-released/</link>
+		<comments>http://blog.springsource.org/2013/08/14/spring-xd-1-0-milestone-2-released/#comments</comments>
+		<pubDate>Wed, 14 Aug 2013 20:48:20 +0000</pubDate>
+		<dc:creator>Mark Pollack</dc:creator>
+				<category><![CDATA[Big Data]]></category>
+		<category><![CDATA[Hadoop]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14189</guid>
+		<description><![CDATA[Today we are pleased to announce the 1.0 M2 release of Spring XD (download)  Spring XD is a unified, distributed, and extensible system for data ingestion, real time analytics, batch processing, and data export.  The project’s goal is to simplify the development of big data applications. The second milestone release of Spring XD introduces several  <a href="http://blog.springsource.org/2013/08/14/spring-xd-1-0-milestone-2-released/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/14/spring-xd-1-0-milestone-2-released/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>Spring Boot – Simplifying Spring for Everyone</title>
+		<link>http://blog.springsource.org/2013/08/06/spring-boot-simplifying-spring-for-everyone/</link>
+		<comments>http://blog.springsource.org/2013/08/06/spring-boot-simplifying-spring-for-everyone/#comments</comments>
+		<pubDate>Tue, 06 Aug 2013 21:26:45 +0000</pubDate>
+		<dc:creator>Phil Webb</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=14126</guid>
+		<description><![CDATA[(This blog post was written jointly by Phil Webb and Dave Syer). We are pleased to announce the first milestone release of a new project called Spring Boot. Spring Boot aims to make it easy to create Spring-powered, production-grade applications and services with minimum fuss. It takes an opinionated view of the Spring platform so  <a href="http://blog.springsource.org/2013/08/06/spring-boot-simplifying-spring-for-everyone/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/08/06/spring-boot-simplifying-spring-for-everyone/feed/</wfw:commentRss>
+		<slash:comments>26</slash:comments>
+		</item>
+		<item>
+		<title>Spring Framework 4.0 M2: WebSocket Messaging Architectures</title>
+		<link>http://blog.springsource.org/2013/07/24/spring-framework-4-0-m2-websocket-messaging-architectures/</link>
+		<comments>http://blog.springsource.org/2013/07/24/spring-framework-4-0-m2-websocket-messaging-architectures/#comments</comments>
+		<pubDate>Wed, 24 Jul 2013 17:13:09 +0000</pubDate>
+		<dc:creator>Rossen Stoyanchev</dc:creator>
+				<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=13986</guid>
+		<description><![CDATA[Overview As I wrote previously, a WebSocket API is only the starting point for WebSocket-style messaging applications. Many practical challenges remain. As one Tomcat mailing list user mused recently: it does seem to me that websockets is still not really &#034;production-ready&#034;, (I am not talking about the Tomcat implementation per se, but more generally) &#8230;  <a href="http://blog.springsource.org/2013/07/24/spring-framework-4-0-m2-websocket-messaging-architectures/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/07/24/spring-framework-4-0-m2-websocket-messaging-architectures/feed/</wfw:commentRss>
+		<slash:comments>51</slash:comments>
+		</item>
+		<item>
+		<title>Reactor 1.0.0.M1 &#8211; a foundation for asynchronous fast-data applications on the JVM</title>
+		<link>http://blog.springsource.org/2013/07/18/reactor-1-0-0-m1-a-foundation-for-asynchronous-fast-data-applications-on-the-jvm/</link>
+		<comments>http://blog.springsource.org/2013/07/18/reactor-1-0-0-m1-a-foundation-for-asynchronous-fast-data-applications-on-the-jvm/#comments</comments>
+		<pubDate>Thu, 18 Jul 2013 18:57:11 +0000</pubDate>
+		<dc:creator>Jon Brisbin</dc:creator>
+				<category><![CDATA[Big Data]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Groovy/Grails]]></category>
+		<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=13965</guid>
+		<description><![CDATA[I&#039;m super excited to announce the first milestone release of Project Reactor! Project Reactor is a foundational framework for building asynchronous, FastData applications on the JVM. Some of the goodness in Reactor 1.0.0.M1 includes: reactive composition helpers Stream and Promise, a TcpServer and TcpClient, and Groovy and Spring support. Inspired by Reactive Extenstions, RxJava, the  <a href="http://blog.springsource.org/2013/07/18/reactor-1-0-0-m1-a-foundation-for-asynchronous-fast-data-applications-on-the-jvm/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/07/18/reactor-1-0-0-m1-a-foundation-for-asynchronous-fast-data-applications-on-the-jvm/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>JavaConfig support in the Spring Tool Suite</title>
+		<link>http://blog.springsource.org/2013/07/18/javaconfig-support-in-the-spring-tool-suite/</link>
+		<comments>http://blog.springsource.org/2013/07/18/javaconfig-support-in-the-spring-tool-suite/#comments</comments>
+		<pubDate>Thu, 18 Jul 2013 14:39:25 +0000</pubDate>
+		<dc:creator>Martin Lippert</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=13941</guid>
+		<description><![CDATA[Spring applications that use JavaConfig instead of XML become more and more popular. Today we would like to show you the new features in the latest Spring Tool Suite 3.3.0 release that makes it easier for you to program Spring applications using annotations and JavaConfig instead of XML. Project configuration Lets assume you implement a  <a href="http://blog.springsource.org/2013/07/18/javaconfig-support-in-the-spring-tool-suite/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/07/18/javaconfig-support-in-the-spring-tool-suite/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Spring Security Java Config Preview: Readability</title>
+		<link>http://blog.springsource.org/2013/07/11/spring-security-java-config-preview-readability/</link>
+		<comments>http://blog.springsource.org/2013/07/11/spring-security-java-config-preview-readability/#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 22:01:34 +0000</pubDate>
+		<dc:creator>Rob Winch</dc:creator>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=13894</guid>
+		<description><![CDATA[Last updated on August 23rd, 2013 (Spring Security RC1) In this post, I will discuss how to make your Spring Security Java configuration more readable. The post is intended to elaborate on a point from Spring Security Java Config Preview: Web Security where I stated: By formatting our Java configuration code it is much easier  <a href="http://blog.springsource.org/2013/07/11/spring-security-java-config-preview-readability/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/07/11/spring-security-java-config-preview-readability/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+	</channel>
+</rss>

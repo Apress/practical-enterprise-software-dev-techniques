@@ -1,0 +1,42 @@
+-- This is a separate script to populate the stores with products.
+-- store where City = '' 
+-- product where name = ''
+
+--
+-- THIS SCRIPT SHOULD WORK WITH EITHER MYSQL OR MS SQL SERVER DBs
+--
+
+-- Products 
+-- Auto Parts  ('Battery'), 'Head Lamps'), 'Oil Filter'), 'Lug Wrench'), 'Car Jack'), 'Air Freshener'), 'Vent Air Freshener'), 
+-- Electron    	'4GB USB Thumb drive'), '8GB USB Thumb drive'), '42 inch LCD TV'), '52 inch LCD TV'), 'HDMI Cable, 6 feet'), 
+-- 	 		    '20GB MP3 Player'), '10 inch tablet computer'), 'Drive it like you stole it'), 'Drive it like you stole it II'),
+-- 			    'Game Console'), 
+-- Kitchen      'Drip Coffee Maker'), 'Espresso Machine'), 'Small coffee maker'), 'Fancy brew station'), 'Cheap Mixer'), 
+-- 				'Fancy Mixer'), 'Dinner Plate set'), 'Cutting Board'), 'Paper towel holder'), 'Cup Set'), 'Set of glasses'), 
+--				'Silverware set'), 
+-- Home Office  'Printer paper'), 'Stapler'), 'Printer Ink'), 'Wire Trash can'), 'Pencil holder'), 'Desk Calendar'), 'Desk lamp'), 
+--				'Fax-Printer-Scanner'), 'Wireless Fax-Printer-Scanner'), 'Router'), 'Power Strip'), 
+-- Outdoor		'Patio Chair'), 'Patio Table'), 'Patio Umbrella'), 'Gas Grill'), 'Charcoal Grill'), 'Fire Chimney'), 'Soft sided pool')
+
+-- Cities ('Concord'), 'Charleston'), 'San Diego'), 'Dallas'), 'Prairie Town'), 'Iowa City'))
+
+--
+-- execute individual scripts
+-- how to be DB agnostic here?
+
+CALL SQL_Data_Script_Store_Product_AutoParts.sql
+
+CALL SQL_Data_Script_Store_Product_Electronics.sql
+
+CALL SQL_Data_Script_Store_Product_HomeOffice.sql
+
+CALL SQL_Data_Script_Store_Product_Kitchen.sql
+
+CALL SQL_Data_Script_Store_Product_Outdoor.sql
+
+
+
+
+
+ 
+ 

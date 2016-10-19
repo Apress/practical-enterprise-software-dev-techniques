@@ -1,0 +1,39 @@
+To install the database into MS SQL SERVER:
+
+1) Start MS SQL Server Management Studio and connect to the destination database
+as an administrative user.
+
+2) Load the file MSSQL_Creation_Script.sql, run it to create the database, the schema,
+   the user, and to assign the user to the appropriate objects.  This script also 
+   creates the table structure for the database.
+   
+3) Load the file Object_Table_Data_Insert_Script.sql, run it.  This will insert values
+   into the Category, Product, and Store tables.
+   
+4) To fill in the Store_Product table, load and run the following scripts:
+   - SQL_Data_Script_Store_Product_AutoParts.sql
+   - SQL_Data_Script_Store_Product_Electronics.sql
+   - SQL_Data_Script_Store_Product_HomeOffice.sql
+   - SQL_Data_Script_Store_Product_Kitchen.sql
+   - SQL_Data_Script_Store_Product_Outdoor.sql
+   
+   
+To install in MySQL:
+
+1) Start the MySQL Workbench tool and log in to the destination MySQL database.
+
+2) Load the file MySQL_Creation_Script.sql, run it to create the schema and table 
+   structure.  (NOTE: as explained in the appendix, a user is not created)
+   
+3) Load the file Object_Table_Data_Insert_Script.sql, edit it to removed the 
+   "USE StoreInventoryDB" and "GO" statements, then run the script to insert
+   values into the Category, Product, and Store tables.
+   
+4) To fill in the Store_Product table, load and run the following scripts:
+   NOTE: in each script, edit to remove or comment out the "Use StoreInventoryDB" 
+   and "GO" statements.
+   - SQL_Data_Script_Store_Product_AutoParts.sql
+   - SQL_Data_Script_Store_Product_Electronics.sql
+   - SQL_Data_Script_Store_Product_HomeOffice.sql
+   - SQL_Data_Script_Store_Product_Kitchen.sql
+   - SQL_Data_Script_Store_Product_Outdoor.sql 

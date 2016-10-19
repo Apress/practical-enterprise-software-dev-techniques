@@ -1,0 +1,9 @@
+@ECHO OFF
+echo "PRODUCTION DEPLOY"
+copy \\deploy\Console\*.exe \\prod_server\programs\console
+copy \\deploy\Console\*.dll \\prod_server\programs\console
+copy \\deploy\Console\Console.PROD.config \\prod_server\programs\console
+rename \\test_server\programs\console\Console.PROD.config
+\\test_server\programs\console\Console.exe.config
+echo "PRODUCTION DEPLOY COMPLETE"
+exit
